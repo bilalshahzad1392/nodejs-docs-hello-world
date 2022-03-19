@@ -51,6 +51,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'MyTestAppForNJ'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C438E1E08AA4E66B522AC1716A38E40 }}
+          #slot-name: 'Production'
+          publish-profile: ${{ secrets.MYTESTAPPFORNJ_PUBLISH_PROFILE }}
           package: .
